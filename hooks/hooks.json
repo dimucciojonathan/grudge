@@ -1,0 +1,27 @@
+{
+  "description": "grudge: inject standing corrections at session start; record new corrections as you make them",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/bin/grudge.js\" hook session-start",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/bin/grudge.js\" hook prompt",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

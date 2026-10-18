@@ -1,0 +1,14 @@
+{
+  "name": "grudge",
+  "description": "grudge: remembers every correction you give Claude Code.",
+  "owner": {
+    "name": "Jonathan DiMuccio"
+  },
+  "plugins": [
+    {
+      "name": "grudge",
+      "source": "./",
+      "description": "Remembers every time you told Claude \"no\" and makes sure you never have to say it twice."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "grudge-cc",
+  "version": "0.1.0",
+  "description": "It remembers every time you told your AI \"no.\" Finds the corrections you keep repeating to Claude Code and Codex, and makes sure you never say them twice.",
+  "bin": {
+    "grudge": "bin/grudge.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "hooks",
+    "skills",
+    ".claude-plugin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude-code",
+    "codex",
+    "claude-md",
+    "ai-agents",
+    "memory",
+    "hooks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dimucciojonathan/grudge.git"
+  },
+  "author": "Jonathan DiMuccio",
+  "license": "MIT"
+}

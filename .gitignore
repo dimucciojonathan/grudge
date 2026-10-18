@@ -1,0 +1,5 @@
+# private launch notes
+LAUNCH.md
+node_modules/
+*.tmp
+.DS_Store
