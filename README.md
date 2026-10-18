@@ -1,5 +1,9 @@
 <h1 align="center">grudge</h1>
 
+<p align="center">
+  <img src="demo/grudge.gif" alt="npx grudge-cc finding repeated corrections in a Claude Code history" width="760">
+</p>
+
 <p align="center"><b>Claude forgets. grudge never does.</b></p>
 
 ---
@@ -14,13 +18,14 @@ npx grudge-cc
 
 ```
   You corrected your agent 14 times (50% of your follow-up messages).
-  5 of those were things you'd already said in another session:
+  6 of those were things you'd already said in another session:
 
   1. ×3 Don't mock the database in the tests, use the test container
   2. ×2 Never edit an existing migration, add a new one
   3. ×2 Use pnpm, not npm
-  4. ×2 Stop adding comments to every line
-  5. ×2 No emojis in commit messages please
+  4. ×2 Don't push, just commit locally
+  5. ×2 Stop adding comments to every line
+  6. ×2 No emojis in commit messages please
 ```
 
 <sub>Demo data. Run it on yours. It's more embarrassing.</sub>

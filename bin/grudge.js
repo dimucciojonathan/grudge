@@ -191,7 +191,7 @@ async function cmdScan(args) {
   console.log();
   printList(db);
   console.log();
-  console.log(dim('  grudge never forgets. From now on, Claude starts every session knowing these.'));
+  console.log(dim('  Claude forgets. grudge never does. From now on, every session starts knowing these.'));
   console.log(dim(`  Clean them up into CLAUDE.md rules:  ${cyan('/grudge')} in Claude Code, or ${cyan('grudge export')}`));
   console.log(dim(`  Wrong one?  ${cyan('grudge forgive <id>')}`));
   console.log();
