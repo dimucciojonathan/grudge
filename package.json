@@ -1,7 +1,7 @@
 {
   "name": "grudge-cc",
   "version": "0.1.0",
-  "description": "It remembers every time you told your AI \"no.\" Finds the corrections you keep repeating to Claude Code and Codex, and makes sure you never say them twice.",
+  "description": "Claude forgets. grudge never does. Finds the corrections you keep repeating to Claude Code and Codex and turns them into rules, so you never have to say them again.",
   "bin": {
     "grudge": "bin/grudge.js"
   },

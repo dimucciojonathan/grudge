@@ -1,14 +1,12 @@
 <h1 align="center">grudge</h1>
 
-<p align="center"><b>It remembers every time you told your AI "no."</b></p>
+<p align="center"><b>Claude forgets. grudge never does.</b></p>
 
 ---
 
-You told Claude not to mock the database. On Tuesday. And last Thursday. And in March.
+You got annoyed at Claude about the same thing in three different sessions. It forgot all three times. grudge remembers, so you never have to say it a fourth.
 
-Claude doesn't remember. **grudge does.**
-
-It reads your Claude Code (and Codex) history, finds the corrections you keep repeating, and quietly makes sure every new session starts knowing them. You never have to say it twice. Well, a third time.
+It reads your Claude Code (and Codex) history, finds the corrections you keep repeating, and quietly makes sure every new session starts knowing them.
 
 ```bash
 npx grudge-cc
@@ -122,7 +120,7 @@ Sometimes. The live detector is deliberately cheap (regexes, not an LLM) so it c
 CLAUDE.md is where the rules should end up. grudge is how they get there, because nobody updates CLAUDE.md in the middle of being annoyed.
 
 **Why "grudge"?**
-Because it never forgets, and neither should your agent.
+Claude forgives and forgets. grudge just holds a grudge.
 
 ## License
 

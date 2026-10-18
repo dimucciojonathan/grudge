@@ -8,7 +8,7 @@
     {
       "name": "grudge",
       "source": "./",
-      "description": "Remembers every time you told Claude \"no\" and makes sure you never have to say it twice."
+      "description": "Claude forgets. grudge never does. Remembers the corrections you keep repeating and makes sure every session starts knowing them."
     }
   ]
 }

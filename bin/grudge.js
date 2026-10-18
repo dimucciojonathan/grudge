@@ -302,7 +302,7 @@ function cmdStats() {
 }
 
 const HELP = `
-  ${bold('grudge')} — it remembers every time you told your AI "no."
+  ${bold('grudge')} · Claude forgets. grudge never does.
 
   ${cyan('grudge scan')}             read your Claude Code + Codex history, find repeated corrections
   ${cyan('grudge scan --deep')}      have a small model (haiku) read every follow-up for indirect feedback
